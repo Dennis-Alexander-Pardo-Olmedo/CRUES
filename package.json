@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "name": "crued",
+  "version": "0.0.1",
+  "description": "Crued",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon /index.js"
+  },
+  "keywords": [
+    "base",
+    "español",
+    "Cruem"
+  ],
+  "author": "Dennis Pardo",
+  "license": "ISC"
+}
