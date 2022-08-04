@@ -7,7 +7,7 @@ CREATE TABLE USER(
     Nombre varchar(40) ,
     Direccion varchar(40),
     Telefono  int,
-    primary key (id)
+    primary key (Id)
 );
 DESCRIBE USER;
 insert USER (Id, Cedula, Nombre,Direccion,Telefono)VALUES (0,'0','juan','ecua', 20000);

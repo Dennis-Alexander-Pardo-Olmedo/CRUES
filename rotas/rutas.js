@@ -13,5 +13,13 @@ router.get('/' , (req, res) => {
         console.log(err);
       }
     });  
+    router.get('/:Id', (req, res) => {
+      /*mysqlConnection.query('SELECT USER FROM "Id"')*/
+      const { Id }=req.params;
+      console.log(Id);
+    });
   });
+
+  
+ 
 module.exports = router;
